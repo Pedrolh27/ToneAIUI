@@ -20,6 +20,9 @@ export default function Home() {
 
   async function callToneAI(prompt) {
     // TODO: replace with your backend call
+    
+
+    /// end TODO
     await new Promise((r) => setTimeout(r, 400));
     return `ToneAI (demo): You said “${prompt}”. Connect me to your API for real responses.`;
   }
